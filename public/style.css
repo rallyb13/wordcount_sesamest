@@ -1,0 +1,31 @@
+
+/*the home page **************/
+.my-form {
+  margin: 5%;
+  text-align: left;
+}
+
+
+#sentence {
+  height: 100px;
+  width: 60%;
+}
+
+
+/*#keyword */
+
+
+#on{
+  color: red;
+}
+#smallnote{
+  font-size: small;
+}
+
+/*Count's page****************/
+/*h2 = {
+  font-weight: normal;
+}
+#word ={
+  font-weight: bold;
+}*/
