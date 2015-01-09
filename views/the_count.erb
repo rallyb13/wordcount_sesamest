@@ -1,15 +1,21 @@
 <header>
-<h2>The Count presents...your official count of the word
-  "<span #id="word"><%= @keyword %></span>".</h2>
+  <h2>The Count presents... your official count of the word
+    "<span id="word"><%= @keyword %></span>":</h2>
 </header>
 
 <section>
-<p> <%= @frequency %>! I count <%= @frequency %> instance(s) of <%= @keyword %>!
-  Ah! Ah! Ahh! </p>
-<p>  Your text: <%= @sentence %> </p>
+  <img id="sesame" src="count.jpg" alt="The Count, from Sesame Street,
+    gives the results.">
+  <div id="wrapper">
+    <p><strong><%= @frequency %>!</strong></p>
+    <p>I count <%= @frequency %> instanceS of <%= @keyword %>! </p>
+    <p> Ah! Ah! Ahh! </p>
+  </div>
+    <p id="text">  Your text: <%= @sentence %> </p>
+
 </section>
 
 <footer>
   <p> This website has been brought to you be the letters "R" and "B", the number
-    "<%= @frequency %>", and Benjamin Herson here at the Epicodus workshop.</p>
+    "<%= @frequency %>", and Benjamin Herson at the Epicodus workshop.</p>
 </footer>

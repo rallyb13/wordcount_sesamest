@@ -1,26 +1,34 @@
 <header>
-  <h1>The Frequency Finder</h1>
+  <h1>Count My Word</h1>
 </header>
 <section>
-    <form action = "/the_count">
-    <div class = "my-form">
-      <label for="keyword">Please enter your search term here:</label>
-      <input id="keyword" name="keyword" type="text">
+  <form action = "/the_count">
+    <div id = "my-form">
+      <div class ="form-piece">
+        <label for="keyword">Please enter your search term* here:</label>
+        <input id="keyword" name="keyword" type="text">
+      </div>
 
-      <label for="sentence">Please enter your sentence(s) here:</label>
-      <input id="sentence" name="sentence" type="text">
+      <div class ="form-piece">
+        <label for="sentence">Please enter your sentence(s) here:</label>
+        <input id="sentence" name="sentence" type="text" style="width:500px">
+      </div>
 
-      <button type="submit">"What's the frequency, Kenneth?"</button>
+      <button type="submit">"Count My Word!"</button>
     </div>
   </form>
-    <div id="smallnote">
-      <p>Please note that this is a very powerful search engine. If you only want to
-      find whole words, enter your search term with a space before and after. For example,
-      while the word itself, " on " only appears in the following classic line three times,
-      "on" appears five times:</p>
-      <p>"Who's <span id="on">on</span> first. What's <span id="on">on</span>
-      sec<span id="on">on</span>d. I-d<span id="on">on</span>'t-know's
-      <span id="on">on</span> third."</p>
-      <p> Dig it?</p>
-    </div>
+
+  <img id="clicker" src = "click_counter.jpg" alt="a click counter">
+  <p id="shakes">"Words, words, words..."</p>
+
+  <div id="smallnote">
+    <p>*Please note that this is a very specific counter. If you only want to
+    find whole words, enter your search term with a space before and after. For
+    example, in the classic Abbott and Constello line (below) while the word
+    " on " only appears three times, "on" appears five times:</p>
+    <p>"Who's <span id="on">on</span> first. What's <span id="on">on</span>
+    sec<span id="on">on</span>d. I-d<span id="on">on</span>'t-know's
+    <span id="on">on</span> third."</p>
+    <p> Dig it?</p>
+  </div>
 </section>

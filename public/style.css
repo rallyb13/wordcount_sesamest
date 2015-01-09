@@ -1,31 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #CFF;
+}
+
+header{
+  padding: 15px;
+  position: relative;
+  text-align: center;
+}
+
+section{
+  padding: 10px;
+  padding-bottom: 80px;
+}
+
 
 /*the home page **************/
-.my-form {
-  margin: 5%;
+.form-piece{
+  margin: 2% 5%;
+}
+
+button{
+  margin: 0 5%;
+  background-color: blue;
+  color: white;
+}
+
+#clicker{
+  float: right;
+}
+
+#shakes{
+  font-family: papyrus, "century gothic";
   text-align: left;
+  font-size: xx-large;
+  margin-left: 2.5%;
+  padding: 3px 0 10px 5px;
 }
 
-
-#sentence {
-  height: 100px;
-  width: 60%;
+#smallnote{
+  font-size: x-small;
+  font-family: "courier new", courier;
+  margin: 10% 5%;
 }
-
-
-/*#keyword */
-
 
 #on{
   color: red;
 }
-#smallnote{
-  font-size: small;
-}
+
+
 
 /*Count's page****************/
-/*h2 = {
-  font-weight: normal;
-}
-#word ={
+#word{
+  font-family: "arial black", impact;
   font-weight: bold;
-}*/
+}
+
+#wrapper{
+  text-align: center;
+  font-size: xx-large;
+  margin: 2em 0 0 5em;
+}
+
+#sesame{
+  float: left;
+}
+
+#text{
+  margin-top: 10%;
+}
+
+footer{
+  font-family: "arial narrow", arial;
+  font-size: 12px;
+  width: 100%
+  height: 80px;
+  position: absolute;
+  bottom: 0;
+  padding-left: 5%;
+}

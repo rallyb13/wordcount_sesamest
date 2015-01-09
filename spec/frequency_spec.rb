@@ -24,4 +24,13 @@ describe('String#frequency') do
       .to(eq(4))
   end
 
+  it('will count a word even if that word is entered in uppercase') do
+    expect(("This little piggy went 'wee, wee, wee' all the way home.").frequency("WEE"))
+      .to(eq(3))
+  end
+
+  it('will return 0 if word is not present') do
+    expect(("Third base!").frequency("who")).to(eq(0))
+  end
+
 end

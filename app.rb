@@ -11,5 +11,6 @@ get('/the_count') do
 @keyword = params.fetch('keyword')
 @sentence = params.fetch('sentence')
 @frequency = @sentence.frequency(@keyword)
+
   erb(:the_count)
 end
