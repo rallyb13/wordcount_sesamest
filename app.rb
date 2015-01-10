@@ -12,5 +12,11 @@ get('/the_count') do
 @sentence = params.fetch('sentence')
 @frequency = @sentence.frequency(@keyword)
 
+if @frequency==1
+  @plural = "instance"
+else
+  @plural = "instances"
+end
+
   erb(:the_count)
 end
